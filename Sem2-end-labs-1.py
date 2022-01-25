@@ -1,6 +1,15 @@
 # Author: JD 01/24/2022
 # Break camelCase, 6 kyu
 
+"""
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
+"""
+
 def solution(s):
     # Make the word into list for checking each individual letter.
     s = list(s)
